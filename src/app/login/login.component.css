@@ -1,0 +1,19 @@
+.row {
+    padding: 120px 0;
+}
+span {
+    color: red;
+}
+.row {
+    background: url(./images/background.png) center center no-repeat;
+    background-size: cover;
+}
+.form-group {
+    font-weight: bold;
+}
+@media only screen and (max-width: 767px) {
+    .row {
+        background: url(./images/background-mobile.png) center center no-repeat;
+        background-size: cover;
+    }
+}
